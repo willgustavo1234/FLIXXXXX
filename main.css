@@ -1,0 +1,208 @@
+
+:root{
+    --vermelho:red;
+    --preta:black;
+}
+
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+ /*elementos base*/
+    body{
+        background-color:var(--preta);
+        font-family: 'Arial', Times, serif;
+        color:wheat
+    }
+
+
+
+
+    header .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+     justify-content:space-between;
+    }
+
+   header .logo{
+       margin-left: 5px;
+       color: var(--vermelho);
+       font-family: 'Arial Black', times;
+       font-size:40px;
+   }
+
+   header nav a {
+       text-decoration: none;
+       color: #aaa;
+       margin-right: 10px;
+   }
+
+   header nav a:hover{
+       color: #fff;
+   }
+
+   /*filme principal*/
+   
+   
+  .filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('imagem/aaa.jpg');
+    
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   }
+
+   .filme-principal .Descricao{
+       margin-top: 10px;
+       margin-bottom: 40px;
+   }
+
+
+
+    .aranha-principal{
+        font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('imagem/979511.jpg');
+    
+    height: 500px;
+    background-size: cover;
+
+    }
+
+    .big-principal{
+        font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('imagem/431311.jpg');
+    
+    height: 500px;
+    background-size: cover;
+
+    }
+
+
+    .sete-principal{
+        font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('imagem/seteee.png');
+    
+    height: 450px;
+    background-size: cover;
+
+    }
+
+
+    .Descricao-aranha{
+        margin-top: 10px;
+       margin-bottom: 40px;
+   }
+
+    
+ .Descricao-big{
+        margin-top: 10px;
+       margin-bottom: 40px;
+   }
+   
+   .Descricao-sete{
+    margin-top: 10px;
+   margin-bottom: 40px;
+}
+    
+
+
+
+   .Titulo {
+       margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+   }
+
+
+    .Titulo-aranha{
+        margin-top: 25px;
+     font-size: 50px;
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    }
+
+
+    .Titulo-big{
+        margin-top: 15px;
+     font-size: 40px;
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    }
+
+    .Titulo-sete{
+        margin-top: 15px;
+     font-size: 40px;
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    }
+
+
+
+   .botao {
+       background-color: rgba(0,0,0,.50);
+       border: none;
+       color: red;
+
+       padding: 15px 30px;
+       margin-right: 15px;
+       font-size: 12px;
+   
+
+   cursor: pointer;
+   transition: .3s ease all;
+   }
+
+   .botao:hover{
+       background-color: white;
+       color: black;
+   }
+
+   .botao i{
+       margin-right: 8px;
+   }
+
+
+   .container{
+       margin-left: 30px;
+   }
+
+
+   .filme-principal .container{
+       width:70% ;
+   }
+
+
+   .box-filme{
+       height: 200px;
+       width: 50%;
+       display: block;
+   }
+
+  
+
+
+   .carrosel-filmes{
+       margin-top: 5px;
+   }
+
+
+
+   .Trailer-principal.container{
+    width:70% ;
+   }
+
+
+   .Trailer-principal.Descricao{
+       margin-top: 10px;
+       margin-bottom: 40px;
+   }
+
+
+
+
